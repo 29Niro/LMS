@@ -25,6 +25,18 @@ function HomeLecturer() {
     const theme = useTheme();
     return (
         <Box>
+            <h1> Welcome lecturer</h1>
+            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} >
+                <Grid item xs={6}>
+                    <p>When you develop a mockup page or backend API is not ready for data fetching and you have to make 
+                        Frontend Development with static data until it comes, react-lorem-ipsum will create your gibberish texts for you.</p>
+                </Grid>
+                <Grid item xs={6}>
+                    <Box > 
+                    <img style={{width:"60%"}} src="/asset/images/Lecturer.svg"/>
+                    </Box>
+                </Grid>
+            </Grid>
             <h2> My courses: </h2>
             <Card sx={{ display: 'flex' }}>
                 <CardMedia
