@@ -18,6 +18,7 @@ import {faFolder, faFolderTree} from '@fortawesome/free-solid-svg-icons'
 import Contents from "../components/pages/lecturer/content/Contents";
 import ContentCreate from "../components/pages/lecturer/content/ContentCreate";
 
+
 export const routes = [
     {
         path: "*",
